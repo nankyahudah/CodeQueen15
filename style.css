@@ -1,6 +1,4 @@
-*{
-background-color: rgb(75, 75, 202);
-}
+
 h1{
     text-align: center;
     color: red;
@@ -17,4 +15,11 @@ h2{
     text-align: center;
     color: black;
     justify-self: center;
+}
+/* this is where my list starts */
+.cooking{
+    color: blue;
+}
+.line{
+    background-color: aqua;
 }
