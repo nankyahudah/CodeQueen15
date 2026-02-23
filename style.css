@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 h1{
     text-align: center;
     color: red;
@@ -22,4 +25,25 @@ h2{
 }
 .line{
     background-color: aqua;
+}
+#food{
+    background-color: greenyellow;
+    /* border-color: 3px black solid; */
+    border: 5px black solid;
+}
+.first{
+    border-style: dotted;
+    margin: 10px 15px;
+    padding: 30px;
+}
+/* My flexbox properties */
+.container{
+    background-color: blueviolet;
+}
+.child{
+    background-color: aqua;
+    display: flex;
+    /* flex-direction: row; */
+    /* gap: 15px; */
+    justify-content:space-between;
 }
