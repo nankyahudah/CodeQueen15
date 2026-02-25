@@ -37,13 +37,34 @@ h2{
     padding: 30px;
 }
 /* My flexbox properties */
-.container{
-    background-color: blueviolet;
-}
-.child{
-    background-color: aqua;
+
+.childcontainer{
+    background-color: orange;
     display: flex;
-    /* flex-direction: row; */
-    /* gap: 15px; */
-    justify-content:space-between;
+    justify-content: space-between;
+}
+
+.blue-container{
+    border: 3px blue solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-container{
+    border: 2px aqua solid;
+    margin: 6px;
+    height: 3cm;
+    width: 7cm;
+}
+.mime{
+    margin-top: 100px;
+}
+.last{
+    border: 1px grey solid;
+}
+img{
+    width: 120px;
+    height: 80%;
+    border-radius: 50%;
 }
