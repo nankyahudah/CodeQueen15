@@ -63,8 +63,14 @@ h2{
 .last{
     border: 1px grey solid;
 }
-img{
-    width: 120px;
-    height: 80%;
-    border-radius: 50%;
+.pic{
+width: 120px;
+height: 80%;
+border-radius: 50%;
+}
+    
+/* Bootsrap Work */
+.Love{
+    background-color: blueviolet
+    ;
 }
