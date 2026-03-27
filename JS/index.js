@@ -76,13 +76,79 @@ console.log(person["name"]) // acess the name property
 console.log(person. hobbies)
 console.log( person.hobbies[1]) // acessing the second hobby
 
+// grading  using if condition
+// let score  = 75
+
+// if (score >= 80) {
+//     console.log (" Grade: A - Excellent")
+// }else if ( score >= 75) {
+//     console.log ( "Grade: B+ - VeryGood")
+// } else if (score >= 70 ) console.log (Grade:c)
+
+// assignment 1. Grading mathh sores.( An array called scores containing objects with each object having a name and score properties)
+// Loops help us to look yhrough an array and return a specific item
+// let scores= [
+   // { name: " martin", score: 70} ; TO RECTIFY
+// { name: "Annet", score: 85 };
+// { name: "Justine", score: 63 };
+// { name: " Samuel", score: 75 };
+
+// scores.forEach(student => {
+//     let grade;
+// if (student.scores >=90) {
+//     grade = "A"
+// } else if ( student.scores >= 80) { grade = " B"} else if
+// (student.scores >= 70) { grade = "C"}
+// }
+// console.log( student.name + " " + student.scores + " " + grade)
 
 
+//concatenation
+let myname = "Hudah";
+let subject ="Javascript";
+let marks = 89;
+let grade = "D1";
+console.log(myname)
+
+//using + operator
+let result1= myname + " " + subject + " " + marks + " " + grade 
+console.log(result1
+)
+//FUNCTIONS
+//Functions are reusable blocks of code that perform specific task, they can take parametres and return values.
+// Function declaration , we use the " functioin" key word
+//Function, function name ( ) { code to be executed
+// or
+function functioinName (parameter) {
+    //code to be executed
+    return parameter;// returning the parameter
+}
+// or
+function funcWithParameters( parameter1, parameter2, parameter3) { // code to be executed
+    return parameter1 + parameter2 + parameter3; // returning the sum of parameters
+}
+// working example of a function
+function returnSomeValue() {
+    let value = " This is my first function in JavaScript"
+    console.log(value)
+}
+returnSomeValue(); // this is how you call  a function to execute the code inside it
+
+function retunParameter
 
 
+(parameter){
+    return parameter
+}
+console.log( retunParameter(" this is my 2nd function"))
+const result = retunParameter( " hello this is my 2nd function");
+console.log(result)
 
-
-
+function addNumbers( x, y) { 
+    return x+y;
+}
+const sum = addNumbers(4, 5)
+console.log(sum)
 
 
 
